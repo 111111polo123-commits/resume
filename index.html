@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>หน้าแรก | ศุภกร กิจจานนท์</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">ศุภกร กิจจานนท์</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="เปิด/ปิดเมนู" aria-expanded="false">☰</button>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html" class="active">หน้าแรก</a></li>
+        <li><a href="experience.html">ประสบการณ์</a></li>
+        <li><a href="projects.html">ผลงาน</a></li>
+        <li><a href="contact.html">ติดต่อ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <img src="images/profile.jpg" alt="รูปโปรไฟล์ของศุภกร กิจจานนท์" class="avatar">
+      <div class="hero-text">
+        <h1>สวัสดีครับ ผมชื่อ ศุภกร กิจจานนท์</h1>
+        <p class="tagline">นักศึกษาวิศวกรรมไฟฟ้าสื่อสาร | ผู้สนใจงานด้าน IoT และระบบสื่อสาร</p>
+        <p>
+          ผมกำลังศึกษาอยู่ชั้นปีที่ 4 สาขาไฟฟ้าสื่อสาร
+          มหาวิทยาลัยศิลปากร สนใจงานด้าน <strong>IoT และการวัดสัญญาณ RF</strong>
+          เป็นพิเศษ และกำลังมองหาโอกาสฝึกงานในสายนี้
+        </p>
+        <a href="contact.html" class="btn">ติดต่อผม</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>จุดเด่นและสิ่งที่กำลังพัฒนา</h2>
+
+      <div class="two-col">
+        <div class="col">
+          <h3>จุดเด่น</h3>
+          <ul>
+            <li><strong>มีความรับผิดชอบ</strong> — ตั้งใจทำงานที่ได้รับมอบหมายให้เสร็จตามเวลาที่กำหนด</li>
+            <li><strong>เรียนรู้สิ่งใหม่ได้ดี</strong> — พร้อมศึกษาและฝึกฝนเรื่องที่ยังไม่รู้เพื่อพัฒนาตัวเอง</li>
+            <li><strong>มีความอดทน</strong> — พยายามแก้ไขปัญหาและทำงานต่อจนกว่าจะสำเร็จ</li>
+            <li><strong>ทำงานร่วมกับผู้อื่นได้ดี</strong> — รับฟังความคิดเห็นของคนอื่นและช่วยกันทำงานเป็นทีม</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h3>สิ่งที่กำลังพัฒนา</h3>
+          <ul>
+            <li><strong>ประสบการณ์ทำงานจริง</strong> — กำลังพัฒนาทักษะจากการทำโปรเจกต์และฝึกปฏิบัติจริง</li>
+            <li><strong>ความรวดเร็วในการตัดสินใจ</strong> — กำลังฝึกจัดลำดับความสำคัญให้ตัดสินใจได้เร็วขึ้น โดยยังคงความรอบคอบ</li>
+            <li><strong>การสื่อสารภาษาอังกฤษ</strong> — กำลังฝึกอ่านเอกสารทางวิศวกรรมและเรียนรู้คำศัพท์เฉพาะทางเพิ่มเติม</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>ทักษะเด่น</h2>
+
+      <div class="skill-grid">
+        <div class="skill-card">
+          <h3>C/C++ (Arduino & ESP32)</h3>
+          <p>เขียนโปรแกรมควบคุมไมโครคอนโทรลเลอร์สำหรับงาน IoT</p>
+        </div>
+        <div class="skill-card">
+          <h3>MATLAB</h3>
+          <p>คำนวณและวิเคราะห์ข้อมูลทางวิศวกรรมเบื้องต้น</p>
+        </div>
+        <div class="skill-card">
+          <h3>การวัดสัญญาณ RF</h3>
+          <p>วัดและวิเคราะห์ VSWR, Return Loss, S-Parameter และทดสอบสายอากาศ</p>
+        </div>
+        <div class="skill-card">
+          <h3>IoT & ESP32</h3>
+          <p>เชื่อมต่อ GPIO, Wi-Fi และเซนเซอร์เบื้องต้น</p>
+        </div>
+        <div class="skill-card">
+          <h3>เครื่องมือที่ใช้ประจำ</h3>
+          <p>Arduino IDE, Excel, RStudio</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2569 ศุภกร กิจจานนท์</p>
+    <p>สร้างด้วย HTML และ CSS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
