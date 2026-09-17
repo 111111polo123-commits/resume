@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ผลงาน | ศุภกร กิจจานนท์</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">ศุภกร กิจจานนท์</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="เปิด/ปิดเมนู" aria-expanded="false">☰</button>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="experience.html">ประสบการณ์</a></li>
+        <li><a href="projects.html" class="active">ผลงาน</a></li>
+        <li><a href="contact.html">ติดต่อ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-head">
+      <h1>ผลงาน</h1>
+      <p class="tagline">โครงงานที่เคยมีส่วนร่วมในการพัฒนา</p>
+    </section>
+
+    <section>
+      <h2>โครงงานที่ผ่านมา</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <img src="images/project1.jpg" alt="ภาพหน้าจอระบบ Smart Room ควบคุมอุปกรณ์ไฟฟ้าอัจฉริยะ">
+          <div class="project-body">
+            <h3>Smart Room — ระบบควบคุมอุปกรณ์ไฟฟ้าอัจฉริยะ</h3>
+            <p>
+              พัฒนาระบบควบคุมไฟและอุปกรณ์ไฟฟ้าภายในห้องผ่านสมาร์ตโฟน
+              โดยสามารถสั่งเปิด–ปิดอุปกรณ์และตรวจสอบสถานะการทำงานแบบ Real-time
+              ช่วยเพิ่มความสะดวกและลดการใช้พลังงานที่ไม่จำเป็น
+            </p>
+            <ul class="tech-list">
+              <li>ESP32</li>
+              <li>Relay Module</li>
+              <li>Wi-Fi</li>
+              <li>Arduino IDE</li>
+              <li>Blynk</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/username/smart-room-esp32" target="_blank" rel="noopener">ซอร์สโค้ด</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project2.jpg" alt="ภาพหน้าจอระบบตรวจวัดอุณหภูมิและความชื้นแบบ IoT">
+          <div class="project-body">
+            <h3>ระบบตรวจวัดอุณหภูมิและความชื้นแบบ IoT</h3>
+            <p>
+              สร้างระบบตรวจวัดอุณหภูมิและความชื้นโดยใช้ไมโครคอนโทรลเลอร์รับข้อมูลจากเซนเซอร์
+              และส่งข้อมูลผ่าน Wi-Fi ไปยัง Dashboard เพื่อแสดงค่าที่วัดได้แบบ Real-time
+              เหมาะสำหรับการติดตามสภาพแวดล้อมภายในห้อง
+            </p>
+            <ul class="tech-list">
+              <li>ESP32</li>
+              <li>DHT22</li>
+              <li>OLED Display</li>
+              <li>Wi-Fi</li>
+              <li>Arduino IDE</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/username/iot-temperature-monitor" target="_blank" rel="noopener">ซอร์สโค้ด</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project3.jpg" alt="ภาพหน้าจอระบบควบคุมมอเตอร์อัตโนมัติ">
+          <div class="project-body">
+            <h3>ระบบควบคุมมอเตอร์อัตโนมัติ</h3>
+            <p>
+              พัฒนาระบบควบคุม Stepper Motor ให้สามารถกำหนดทิศทาง ความเร็ว
+              และองศาการหมุนได้ โดยใช้ไมโครคอนโทรลเลอร์ประมวลผลคำสั่งและควบคุมมอเตอร์ผ่าน
+              Motor Driver สามารถนำไปประยุกต์ใช้กับระบบอัตโนมัติและงานต้นแบบทางวิศวกรรม
+            </p>
+            <ul class="tech-list">
+              <li>ESP32</li>
+              <li>Stepper Motor</li>
+              <li>A4988</li>
+              <li>Arduino IDE</li>
+              <li>AccelStepper</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/username/stepper-motor-control" target="_blank" rel="noopener">ซอร์สโค้ด</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2569 ศุภกร กิจจานนท์</p>
+    <p>สร้างด้วย HTML และ CSS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
